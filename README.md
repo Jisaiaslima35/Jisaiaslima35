@@ -2,6 +2,40 @@
 <html lang="pt-br">
 <head>
   <!-- meta tags, title e estilos -->
+   <style>
+    /* Estilos CSS para o layout */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #444;
+      padding: 1rem;
+    }
+    section {
+      padding: 2rem;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    img {
+      max-width: 100%;
+    }
+    .project {
+      margin-bottom: 2rem;
+    }
+  </style>
 </head>
 <body>
   <header>
